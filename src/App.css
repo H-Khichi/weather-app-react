@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap');
+*{
+  font-family: "Outfit", sans-serif;
+  font-weight:400;
+
+}
+/* App.css */
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background:#F9FAFB;
+  /* margin-top: 50px; */
+}
+.weather{
+  background: rgb(221, 220, 220);
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+header{
+  text-align: center;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+input {
+  padding: 10px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid rgb(156, 151, 151);
+}
+.img{
+  text-align: center;
+  
+}
+.img img{
+  width: 150px;
+  height: 150px;
+}
+button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: #000;
+  color: #F9FAFB;
+  border-radius: 3px;
+}
+.city-name{
+  margin: 20px;
+}
+.weather-display {
+  margin-top: 20px;
+}
+
+.data{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-data, .right-data{
+  text-align: center;
+}
